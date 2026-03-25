@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "데이터 다운로드",
+    "section": "",
+    "text": "wintree의 데이터 리포지토리\n\nR 기초 및 활용\n\nR 기초 : 데이터 변환\n\n기대수명(출생시 기대여명) 전체, 남, 여 (2020년 ~ 2024년)\n출처: KOSIS 인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) 년, 1970~1925p : DT_1B8000F\n열로 배열(wide shape) lifexp5.csv 다운로드 행으로 배열(long shape) lifexp5L.csv 다운로드"
+  }
+]
