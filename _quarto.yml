@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!KOSIS.qmd"
+
+execute: 
+  freeze: auto
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+
+lang: ko
+

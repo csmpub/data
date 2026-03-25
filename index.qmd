@@ -1,0 +1,33 @@
+---
+title: "데이터 다운로드"
+toc-title: "이 페이지에서 찾아 보기 ..."
+toc-depth: 6
+resources: 
+    - bookdata/lifexp5.csv
+    - bookdata/lifexp5L.csv
+---
+
+wintree의 데이터 리포지토리
+
+##### R 기초 및 활용
+
+###### R 기초 : 데이터 변환
+
+-   기대수명(출생시 기대여명) 전체, 남, 여 (2020년 ~ 2024년)\
+    출처: KOSIS 인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) 년, 1970~1925p : DT_1B8000F\
+    [열로 배열(wide shape) lifexp5.csv 다운로드](bookdata/lifexp5.csv){download=""} [행으로 배열(long shape) lifexp5L.csv 다운로드](bookdata/lifexp5L.csv){download=""}
+
+```{r}
+#| echo: false
+#| output: false
+if (!requireNamespace("readr", quietly = TRUE)) {
+    install.packages("readr", dependencies = TRUE, verbose = FALSE)
+}
+library("readr", character.only = TRUE, verbose = FALSE)
+tb_w <- read_csv("data/LEB_utf8.csv", col_select = c(기대수명, `2024`:`2020`), locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
+write.csv(tb_w, file = "bookdata/lifexp5.csv", fileEncoding = "UTF-8")
+tb_l <- read_csv("data/LEB_utf8L.csv", col_select = c(시점:년), locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
+write.csv(tb_w, file = "bookdata/lifexp5L.csv", fileEncoding = "UTF-8")
+rm(list = ls())
+```
+

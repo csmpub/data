@@ -1,0 +1,14 @@
+{
+  "hash": "a888e317053cb05ad52b6899baf76367",
+  "result": {
+    "markdown": "---\ntitle: \"데이터 다운로드\"\ntoc-title: \"이 페이지에서 찾아 보기 ...\"\ntoc-depth: 6\nresources: \n    - bookdata/lifexp5.csv\n    - bookdata/lifexp5L.csv\n---\n\n\nwintree의 데이터 리포지토리\n\n##### R 기초 및 활용\n\n###### R 기초 : 데이터 변환\n\n-   기대수명(출생시 기대여명) 전체, 남, 여 (2020년 ~ 2024년) [파일 lifexp5.csv 다운로드](bookdata/lifexp5.csv){download=\"\"}\\\n    출처: KOSIS 인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) 년, 1970~1925p : DT_1B8000F\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
