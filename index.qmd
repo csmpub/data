@@ -27,7 +27,7 @@ library("readr", character.only = TRUE, verbose = FALSE)
 tb_w <- read_csv("data/LEB_utf8.csv", col_select = c(기대수명, `2024`:`2020`), locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
 write.csv(tb_w, file = "bookdata/lifexp5.csv", fileEncoding = "UTF-8")
 tb_l <- read_csv("data/LEB_utf8L.csv", col_select = c(시점:년), locale = locale(encoding = "UTF-8"), show_col_types = FALSE)
-write.csv(tb_w, file = "bookdata/lifexp5L.csv", fileEncoding = "UTF-8")
+write.csv(tb_l, file = "bookdata/lifexp5L.csv", fileEncoding = "UTF-8")
 rm(list = ls())
 ```
 
