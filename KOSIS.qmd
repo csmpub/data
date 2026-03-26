@@ -1,3 +1,11 @@
+---
+toc: true
+toc-location: left
+toc-title: "차례 ..."
+toc-depth: 5
+toc-expand: true
+---
+
 ## KOSIS 국가통계포털
 KOrean Statistical Information Service
 
