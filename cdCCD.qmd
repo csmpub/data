@@ -1,0 +1,41 @@
+
+## 대한민국 행정구역
+Administrative District
+
+### 시군구
+City County District
+
+```{r}
+#| echo: false
+#| output: false
+list_of_packages <- c("readr", "tidyr", "dplyr")
+for (p in list_of_packages) {
+    if (!requireNamespace(p, quietly = TRUE)) {
+        install.packages(p, dependencies = TRUE, verbose = FALSE)
+    }
+    library(p, character.only = TRUE, verbose = FALSE)
+}
+```
+
+```{r}
+#| echo: false
+#| output: false
+tb_kr <- read_csv("kosis/RH_시군구별.csv", col_select = 1,
+    locale = locale(encoding = "UTF-8")) |> rename(시군구 = `A 행정구역(시군구)별`) |>
+    separate_wider_delim(
+        cols = 시군구, delim = " ", names = c("시군구코드", "시군구명"),
+        too_many = "merge"
+    )
+tb_en <- read_csv("kosis/RH_by_CCD.csv", col_select = 1) |>
+    rename(CCD = `A By Administrative District`) |>
+    separate_wider_delim(
+        cols = CCD, delim = " ", names = c("시군구코드", "City County District"),
+        too_many = "merge"
+    )
+write.csv(left_join(tb_kr, tb_en, by = join_by(시군구코드)), file = "data/시군구.csv", fileEncoding = "UTF-8")
+rm(list = ls())
+```
+
+```{r}
+
+```

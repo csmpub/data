@@ -4,6 +4,7 @@ project:
   render: 
     - "*.qmd"
     - "!KOSIS.qmd"
+    - "!cdCCD.qmd"
 
 execute: 
   freeze: auto
