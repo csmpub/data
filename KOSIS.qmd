@@ -17,7 +17,7 @@ Population
 #### 1.2. 주민등록인구현황
 Population Statistics Based on Regident Registration
 
--   행정구역(시군구)별 주민등록세대수 : 월,년 1992 \~ 2026.02 (2026-03-04) : DT_1B040B3\
+-   행정구역(시군구)별 주민등록세대수 : 월,년 1992 \~ 2026.02 (자료갱신 2026-03-04) : DT_1B040B3\
     Regident Households by City, County, and District : Monthly, Annual 1992 \~ 2026.02
 
 #### 1.3. 인구동향조사
@@ -26,7 +26,7 @@ Vital Statistics(Live Birth, Death, Marriage, Divorce)
 ##### 1.3.1. 인구동태건수 및 동태율(출생,사망,혼인,이혼)
 Vital Statistics of Korea
 
--   인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) : 년 1970 \~ 1925p (2026-03-19) : DT_1B8000F\
+-   인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) : 년 1970 \~ 1925p (자료갱신 2026-03-19) : DT_1B8000F\
     Vital Statistics of Korea : Annual 1970 \~ 1925preliminary
 
 ```{r}
@@ -58,13 +58,13 @@ rm(list = ls())
 
 #### 1.5. 국내인구이동통계
 
--   시군구별 이동자수 : 월,분기,년 1970.01 \~ 2026.01 (2026-02-25) : DT_1B26001_A01\
+-   시군구별 이동자수 : 월,분기,년 1970.01 \~ 2026.01 (자료갱신 2026-02-25) : DT_1B26001_A01\
     Number of internal migrants for city, county, and district : Monthly, Quartery, Annual 1970.01 \~ 2026.01
--   전출지/전입지(시도)별 이동자수 : 월,분기,년 1970.01 \~ 2026.01 (2026-02-25) : DT_1B26003_A01\
+-   전출지/전입지(시도)별 이동자수 : 월,분기,년 1970.01 \~ 2026.01 (자료갱신 2026-02-25) : DT_1B26003_A01\
     Number of internal migrants by origin and destination for province : Monthly, Quartery, Annual 1970.01 \~ 2026.01
 
 ##### 1.5.2. 연령(각세별) 이동자수
--   시도/각세별 이동자수 : 년 2001 \~ 2025 (2026-01-29) : DT_1B26B01\
+-   시도/각세별 이동자수 : 년 2001 \~ 2025 (자료갱신 2026-01-29) : DT_1B26B01\
     Number of internal migrants by age for province : Annual 2001 \~ 2025
 
 #### 1.8. 장래가구추계
@@ -73,11 +73,11 @@ Household Projection
 ##### 1.8.2. 시도(2022년 기준)
 Province(2022 Standard)
 
--   가구주의 성/연령/혼인상태별 추계가구_시도 : 년 2020 \~ 2052 (2024-12-12) : DT_1BZ05042\
+-   가구주의 성/연령/혼인상태별 추계가구_시도 : 년 2020 \~ 2052 (자료갱신 2024-12-12) : DT_1BZ05042\
     Number of Private Households by Household Head's Sex, Age, Marital status and Province : Annual 2000 \~ 2052
--   가구주의 연령/가구유형별 추계가구_시도 : 년 2020 \~ 2052 (2024-12-12) : DT_1BZ0505\
+-   가구주의 연령/가구유형별 추계가구_시도 : 년 2020 \~ 2052 (자료갱신 2024-12-12) : DT_1BZ0505\
     Number of Private Households by Household Head's Age, Household Type and Province : Annual 2000 \~ 2052
--   가구주의 연령/가구원수별 추계가구_시도 : 년 2020 \~ 2052 (2024-12-12) : DT_1BZ0506\
+-   가구주의 연령/가구원수별 추계가구_시도 : 년 2020 \~ 2052 (자료갱신 2024-12-12) : DT_1BZ0506\
     Number of Private Households by Household Head's Age, Household Size and Province : Annual 2000 \~ 2052
 
 
@@ -87,7 +87,7 @@ Income, Consumption and Assets
 
 #### 5.7. 외국인주택소유현황
 
--    외국인주택소유현황(총괄) : 반기 2022 2/2 \~ 2025 1/2 (2025-12-02) : DT_408004_001\
+-    외국인주택소유현황(총괄) : 반기 2022 2/2 \~ 2025 1/2 (자료갱신 2025-12-02) : DT_408004_001\
 
 
 
@@ -97,6 +97,29 @@ Health
 #### 6.9. 생명표
 Life Tables By Province
 
--   완전생명표(1세별) : 년, 1970~2024 : DT_1B42\
+-   완전생명표(1세별) : 년, 1970~2024 (자료갱신 2025-12-03): DT_1B42\
     Complete Life Tables : Annual 1970~2024
+
+```{r}
+#| echo: false
+#| output: false
+list_of_packages <- c("readxl", "tidyr", "dplyr", "janitor", "tibble")
+for (p in list_of_packages) {
+    if (!requireNamespace(p, quietly = TRUE)) {
+        install.packages(p, dependencies = TRUE, verbose = FALSE)
+    }
+    library(p, character.only = TRUE, verbose = FALSE)
+}
+```
+
+```{r}
+#| echo: false
+#| output: false
+tb_1970 <- read_excel("kosis/DT_1B42.xlsx", sheet = "1970", col_types = c("text", rep("numeric", 18)), skip = 1) |> add_column(시점 = "1970", .before = 1)
+tb_2024 <- read_excel("kosis/DT_1B42.xlsx", sheet = "2021_2024") |>
+    select(연령별, starts_with("2024...")) |> row_to_names(row_number = 1) |> mutate(across(2:19, as.numeric)) |> add_column(시점 = "2024", .before = 1)
+tb_life <- bind_rows(tb_2024, tb_1970)
+write.csv(tb_life, file = "data/LifeTbl.csv", fileEncoding = "UTF-8")
+rm(list = ls())
+```
 
