@@ -9,7 +9,17 @@ toc-expand: true
 ## KOSIS 국가통계포털
 KOrean Statistical Information Service
 
-
+```{r}
+#| echo: false
+#| output: false
+list_of_packages <- c("readr", "tidyr", "dplyr", "janitor", "tibble")
+for (p in list_of_packages) {
+    if (!requireNamespace(p, quietly = TRUE)) {
+        install.packages(p, dependencies = TRUE, verbose = FALSE)
+    }
+    library(p, character.only = TRUE, verbose = FALSE)
+}
+```
 
 ### 1. 인구
 Population
@@ -28,18 +38,6 @@ Vital Statistics of Korea
 
 -   인구동태건수 및 동태율 추이(출생,사망,혼인,이혼) : 년 1970 \~ 1925p (자료갱신 2026-03-19) : DT_1B8000F\
     Vital Statistics of Korea : Annual 1970 \~ 1925preliminary
-
-```{r}
-#| echo: false
-#| output: false
-list_of_packages <- c("readr", "tidyr", "dplyr")
-for (p in list_of_packages) {
-    if (!requireNamespace(p, quietly = TRUE)) {
-        install.packages(p, dependencies = TRUE, verbose = FALSE)
-    }
-    library(p, character.only = TRUE, verbose = FALSE)
-}
-```
 
 ```{r}
 #| echo: false
@@ -99,18 +97,6 @@ Life Tables By Province
 
 -   완전생명표(1세별) : 년, 1970~2024 (자료갱신 2025-12-03): DT_1B42\
     Complete Life Tables : Annual 1970~2024
-
-```{r}
-#| echo: false
-#| output: false
-list_of_packages <- c("readxl", "tidyr", "dplyr", "janitor", "tibble")
-for (p in list_of_packages) {
-    if (!requireNamespace(p, quietly = TRUE)) {
-        install.packages(p, dependencies = TRUE, verbose = FALSE)
-    }
-    library(p, character.only = TRUE, verbose = FALSE)
-}
-```
 
 ```{r}
 #| echo: false
