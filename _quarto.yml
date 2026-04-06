@@ -1,13 +1,5 @@
 project:
   type: website
-  output-dir: docs
-  render: 
-    - "*.qmd"
-    - "!KOSIS.qmd"
-    - "!cdCCD.qmd"
-
-execute: 
-  freeze: auto
 
 website:
   navbar:
@@ -21,7 +13,3 @@ format:
   html:
     theme: spacelab
     css: styles.css
-    toc: true
-
-lang: ko
-
