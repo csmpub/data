@@ -1,0 +1,13 @@
+---
+title: "통계포털"
+listing: 
+    contents: 
+        - "*/index.qmd"
+    fields: [title, description]
+    type: table
+    sort-ui: true
+    filter-ui: true
+    categories: true
+---
+
+/FILES/KOSIS

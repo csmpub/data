@@ -1,0 +1,13 @@
+---
+title: "인구 데이터"
+listing: 
+  contents:
+    - "*.qmd"
+  fields: [title, description]
+  type: table
+  sort-ui: true
+  filter-ui: true
+  categories: true
+---
+
+/FILES/KOSIS/인구

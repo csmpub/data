@@ -1,0 +1,14 @@
+---
+title: "데이터 다운로드"
+listing: 
+    contents: 
+        - "*/index.qmd"
+        - "!*/*/index.qmd"
+    fields: [title, description]
+    type: table
+    sort-ui: true
+    filter-ui: true
+    categories: true
+---
+
+/FILES

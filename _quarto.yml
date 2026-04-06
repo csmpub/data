@@ -1,15 +1,22 @@
 project:
-  type: website
+  type: "website"
 
 website:
   title: "wintree"
   navbar:
-    logo: logo.png
+    logo: "logo.png"
     right:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: about.qmd
-        text: About
+        text: "About"
+  sidebar: 
+    style: docked
+    contents: 
+      - text: "Home"
+        href: index.qmd
+      - text: "---"
+      - auto: FILES
 
 format:
   html:
