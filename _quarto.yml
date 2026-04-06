@@ -1,9 +1,12 @@
 project:
   type: website
+  output-dir: docs
 
 website:
+  title: "wintree"
   navbar:
-    left:
+    logo: logo.png
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
