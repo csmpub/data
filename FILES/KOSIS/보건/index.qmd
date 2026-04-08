@@ -3,11 +3,13 @@ title: "보건 데이터"
 listing: 
   contents:
     - "*.qmd"
-  fields: [title, description]
+  fields: [title, description, date]
   type: table
   sort-ui: true
   filter-ui: true
   categories: true
 ---
 
-/FILES/KOSIS/보건
+_____
+
+생명표

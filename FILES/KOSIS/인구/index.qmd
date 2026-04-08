@@ -3,11 +3,13 @@ title: "인구 데이터"
 listing: 
   contents:
     - "*.qmd"
-  fields: [title, description]
+  fields: [title, description, date]
   type: table
   sort-ui: true
   filter-ui: true
   categories: true
 ---
 
-/FILES/KOSIS/인구
+_____
+
+주민등록인구현황, 장래인구추계, 장래가구추계
