@@ -7,6 +7,7 @@ listing:
         - 인구
         - "!인구/index.qmd"
     fields: [title, description, date]
+    sort: "date desc"
     type: table
     sort-ui: true
     filter-ui: true

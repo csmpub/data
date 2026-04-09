@@ -8,6 +8,8 @@ website:
     right:
       - href: index.qmd
         text: "Home"
+      - href: data.qmd
+        text: "Data"
       - href: about.qmd
         text: "About"
   sidebar: 
@@ -15,6 +17,8 @@ website:
     contents: 
       - text: "Home"
         href: index.qmd
+      - text: "Data"
+        href: data.qmd
       - text: "---"
       - auto: FILES
 

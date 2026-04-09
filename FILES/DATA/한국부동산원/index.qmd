@@ -1,0 +1,15 @@
+---
+title: "한국부동산원"
+listing: 
+  contents:
+    - "*.qmd"
+  fields: [title, description, date]
+  type: table
+  sort-ui: true
+  filter-ui: true
+  categories: true
+---
+
+_____
+
+청약 평균 분양가

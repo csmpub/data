@@ -1,0 +1,56 @@
+---
+title: "가구주의 성/연령/혼인상태별 추계가구-시도"
+date: "2024-12-12"
+categories: [추계가구, 가구주, 성별, 연령, 혼인상태]
+toc: true
+toc-depth: 4
+---
+
+가구주의 성/연령/혼인상태별 추계가구-시도 기간: 년, 2000-2052
+
+파일 위치: 인구-장래가구추계-시도(2022년 기준)
+
+`.xlsx`로 다운로드 받아서 정리 후 `.csv`로 변환하여 저장
+
+### 데이터
+
+#### 연령별 기대여명
+
+##### 조회조건
+
+- 항목: 전체(계, 미혼, 유배우, 사별, 이혼) 선택
+- 행정구역별(시도): 전국, 서울 (개별 선택)
+- 가구주의 성별: 계, 남자, 여자 선택
+- 가구주의 연령별: 계, 전체 구간 선택
+- 시점: 년, 2026년 - 2052년
+
+```{r}
+#| echo: false
+#| output: false
+library(readxl)
+library(readr)
+c_name <- c(c("행정구역별(시도)", "가구주의 성별", "가구주의 연령별"), paste(rep(c("계", "미혼", "유배우", "사별", "이혼"), times = 27), rep(2026:2052, each = 5), sep = "."))
+c_type <- c(rep("text", times = 3), rep("numeric", times = 135))
+h_total <- read_excel("DT_1BZ05042-Y2026_2052-total.xlsx", sheet = "데이터", col_names = c_name, col_types = c_type, skip = 2)
+h_seoul <- read_excel("DT_1BZ05042-Y2026_2052-seoul.xlsx", sheet = "데이터", col_names = c_name, col_types = c_type, skip = 2)
+write_csv(h_total, "가구주의-성-연령-혼인상태별-추계가구-전국.csv")
+write_csv(h_seoul, "가구주의-성-연령-혼인상태별-추계가구-서울.csv")
+rm(list = ls())
+```
+
+[파일다운로드: 가구주의-성-연령-혼인상태별-추계가구-전국.csv](%EA%B0%80%EA%B5%AC%EC%A3%BC%EC%9D%98-%EC%84%B1-%EC%97%B0%EB%A0%B9-%ED%98%BC%EC%9D%B8%EC%83%81%ED%83%9C%EB%B3%84-%EC%B6%94%EA%B3%84%EA%B0%80%EA%B5%AC-%EC%A0%84%EA%B5%AD.csv){download=""}
+
+[파일다운로드: 가구주의-성-연령-혼인상태별-추계가구-서울.csv](%EA%B0%80%EA%B5%AC%EC%A3%BC%EC%9D%98-%EC%84%B1-%EC%97%B0%EB%A0%B9-%ED%98%BC%EC%9D%B8%EC%83%81%ED%83%9C%EB%B3%84-%EC%B6%94%EA%B3%84%EA%B0%80%EA%B5%AC-%EC%84%9C%EC%9A%B8.csv){download=""}
+
+### 통계표
+
+#### 메타자료
+
+- 통계표ID : DT_1BZ05042
+- 통계표명 : 가구주의 성/연령/혼인상태별 추계가구-시도
+- 출처 : KOSIS(「장래가구추계」, 국가데이터처), 2026.04.09 10:12
+- 문의처 : 042-481-2256
+- 통계표URL : https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1BZ05042&conn_path=I3
+    * KOSIS 개편 시 통계표 URL은 달라질 수 있음
+- 단위 : 가구
+

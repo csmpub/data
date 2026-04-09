@@ -1,23 +1,16 @@
 ---
-title: "Wintree's Data Repository"
+title: "Home"
 listing: 
-    contents:
-        - index.qmd
-        - "!FILES/index.qmd"
-        - "!KOSIS/index.qmd"
-    fields: [title, description]
-    type: table
+    contents: POSTS
+    sort: "date desc"
+    type: default
+    categories: true
     sort-ui: false
     filter-ui: false
-    categories: false
+    image-align: left
+    image-height: 120px
+    image-placeholder: post.png
 ---
 
-\
-
-::: {.callout-note}
-### wintree
-!! 조사, 획득한 데이터를 작업하기 위해 가공한 데이터의 보관소를 만드는 중... !!
-:::
-
-## 데이터 폴더
+## ...
 

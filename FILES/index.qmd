@@ -2,10 +2,11 @@
 title: "데이터 다운로드"
 listing: 
     contents:
-        - 부동산원
+        - DATA
         - KOSIS
         - "!index.qmd"
     fields: [title, description, date]
+    sort: "date desc"
     type: table
     sort-ui: true
     filter-ui: true
@@ -14,5 +15,5 @@ listing:
 
 \
 
-## 기관별 분류
+## 데이터 목록
 

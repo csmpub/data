@@ -1,0 +1,16 @@
+{
+  "hash": "0b70dbfa4e8a4516a5f6e2e5876d631b",
+  "result": {
+    "markdown": "---\ntitle: \"가구주의 성/연령/혼인상태별 추계가구-시도\"\ndate: \"2024-12-12\"\ncategories: [추계가구, 가구주, 성별, 연령, 혼인상태]\ntoc: true\ntoc-depth: 4\n---\n\n\n가구주의 성/연령/혼인상태별 추계가구-시도 기간: 년, 2000-2052\n\n파일 위치: 인구-장래가구추계-시도(2022년 기준)\n\n`.xlsx`로 다운로드 받아서 정리 후 `.csv`로 변환하여 저장\n\n### 데이터\n\n#### 연령별 기대여명\n\n##### 조회조건\n\n- 항목: 전체(계, 미혼, 유배우, 사별, 이혼) 선택\n- 행정구역별(시도): 전국, 서울 (개별 선택)\n- 가구주의 성별: 계, 남자, 여자 선택\n- 가구주의 연령별: 계, 전체 구간 선택\n- 시점: 년, 2026년 - 2052년\n\n\n::: {.cell}\n\n:::\n\n\n[파일다운로드: 가구주의-성-연령-혼인상태별-추계가구-전국.csv](%EA%B0%80%EA%B5%AC%EC%A3%BC%EC%9D%98-%EC%84%B1-%EC%97%B0%EB%A0%B9-%ED%98%BC%EC%9D%B8%EC%83%81%ED%83%9C%EB%B3%84-%EC%B6%94%EA%B3%84%EA%B0%80%EA%B5%AC-%EC%A0%84%EA%B5%AD.csv){download=\"\"}\n\n[파일다운로드: 가구주의-성-연령-혼인상태별-추계가구-서울.csv](%EA%B0%80%EA%B5%AC%EC%A3%BC%EC%9D%98-%EC%84%B1-%EC%97%B0%EB%A0%B9-%ED%98%BC%EC%9D%B8%EC%83%81%ED%83%9C%EB%B3%84-%EC%B6%94%EA%B3%84%EA%B0%80%EA%B5%AC-%EC%84%9C%EC%9A%B8.csv){download=\"\"}\n\n### 통계표\n\n#### 메타자료\n\n- 통계표ID : DT_1BZ05042\n- 통계표명 : 가구주의 성/연령/혼인상태별 추계가구-시도\n- 출처 : KOSIS(「장래가구추계」, 국가데이터처), 2026.04.09 10:12\n- 문의처 : 042-481-2256\n- 통계표URL : https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1BZ05042&conn_path=I3\n    * KOSIS 개편 시 통계표 URL은 달라질 수 있음\n- 단위 : 가구\n\n",
+    "supporting": [
+      "가구주의_성_연령_혼인상태별_추계가구-시도_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
