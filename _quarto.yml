@@ -1,5 +1,5 @@
 project:
-  type: "website"
+  type: website
 
 website:
   title: "wintree"
@@ -13,12 +13,17 @@ website:
       - href: about.qmd
         text: "About"
   sidebar: 
-    style: docked
-    contents: 
-      - text: "Home"
-        href: index.qmd
-      - text: "Data"
-        href: data.qmd
+    - id: home
+      title: "Home"
+      contents: 
+      - index.qmd
+      - data.qmd
+      - text: "---"
+    - id: data
+      title: "Data"
+      contents: 
+      - index.qmd
+      - data.qmd
       - text: "---"
       - auto: FILES
 

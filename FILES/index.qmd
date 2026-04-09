@@ -11,9 +11,13 @@ listing:
     sort-ui: true
     filter-ui: true
     categories: true
+sidebar: data
 ---
 
-\
+::: {.callout-note}
+### 자료 출처
+통계포털(KOSIS), 공공데이터포털(DATA)
+:::
 
 ## 데이터 목록
 

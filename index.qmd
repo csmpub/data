@@ -1,16 +1,16 @@
 ---
-title: "Home"
+title: "Wintree's Home"
 listing: 
     contents: POSTS
+    fields: [title, description, date, categories, image]
     sort: "date desc"
     type: default
-    categories: true
     sort-ui: false
     filter-ui: false
-    image-align: left
-    image-height: 120px
-    image-placeholder: post.png
+    categories: true
 ---
 
-## ...
+방문을 환영합니다.
+
+## 새 글
 
