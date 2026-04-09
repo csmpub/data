@@ -1,5 +1,6 @@
 ---
 title: "인구 데이터"
+categories: [인구, KOSIS]
 listing: 
   contents:
     - "*.qmd"

@@ -8,6 +8,7 @@ listing:
     sort-ui: false
     filter-ui: false
     categories: true
+sidebar: data
 ---
 
 방문을 환영합니다.
