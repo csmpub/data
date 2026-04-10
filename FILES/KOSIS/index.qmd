@@ -9,9 +9,6 @@ listing:
     fields: [title, description, date]
     sort: "date desc"
     type: table
-    sort-ui: true
-    filter-ui: true
-    categories: true
 ---
 
 국가 데이터처 자료를 통계 주제별로 분류

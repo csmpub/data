@@ -7,9 +7,6 @@ listing:
     fields: [title, description, date]
     sort: "date desc"
     type: table
-    sort-ui: true
-    filter-ui: true
-    categories: true
 ---
 
 공공데이터포털 자료를 제공기관별로 분류

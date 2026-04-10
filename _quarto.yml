@@ -1,6 +1,8 @@
 project:
   type: website
 
+language: korean.yml
+
 website:
   title: "wintree"
   navbar:
@@ -26,6 +28,12 @@ website:
       - data.qmd
       - text: "---"
       - auto: FILES
+listing: 
+    sort: "date desc"
+    sort-ui: true
+    filter-ui: true
+    categories: true
+    date-format: iso
 
 format:
   html:

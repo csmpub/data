@@ -6,9 +6,6 @@ listing:
     - "*.qmd"
   fields: [title, description, date]
   type: table
-  sort-ui: true
-  filter-ui: true
-  categories: true
 ---
 
 _____
