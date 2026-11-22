@@ -15,17 +15,18 @@ website:
       - text: Data
         menu: 
           - text: Data Resources
-            href: https://data.csmpub.com/resources.html
+            href: resources.qmd
           - text: Data Downloads
-            href: https://data.csmpub.com/downloads.html
+            href: downloads.qmd
 
   draft-mode: visible
 
 format:
-  html: 
+  html:
+    respect-user-color-scheme: true
     theme:
-      light: flatkly
-      dark: darkly
+      dark: [darkly, csmpub-dark.scss]
+      light: [darkly, csmpub-light.scss]
 # flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - uperhero
 
 lang: ko
