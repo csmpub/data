@@ -1,0 +1,24 @@
+project:
+  type: website
+  resources:
+    - CNAME
+
+website: 
+  navbar: 
+    left: 
+      - href: resources.qmd
+        text: Data Resources
+      - href: downloads.qmd
+        text: Data Downloads
+
+  draft-mode: visible
+
+format:
+  html: 
+    theme:
+      light: flatkly
+      dark: darkly
+# flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - uperhero
+
+lang: ko
+language: korean.yml
