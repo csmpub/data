@@ -6,10 +6,16 @@ project:
 website: 
   navbar: 
     left: 
-      - href: resources.qmd
-        text: Data Resources
-      - href: downloads.qmd
-        text: Data Downloads
+      - href: https://www.csmpub.com/index.html
+        text: Home
+
+    right:
+      - text: Data
+        menu: 
+          - text: Data Resources
+            href: https://data.csmpub.com/resources.html
+          - text: Data Downloads
+            href: https://data.csmpub.com/downloads.html
 
   draft-mode: visible
 
