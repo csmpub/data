@@ -10,6 +10,8 @@ website:
         text: Home
 
     right:
+      - text: Comp
+        href: https://comp.csmpub.com/index.html
       - text: Data
         menu: 
           - text: Data Resources
