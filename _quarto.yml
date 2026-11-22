@@ -15,7 +15,7 @@ website:
       - text: Data
         menu: 
           - text: Data Resources
-            href: resources.qmd
+            href: index.qmd
           - text: Data Downloads
             href: downloads.qmd
 
