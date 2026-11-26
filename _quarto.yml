@@ -1,14 +1,17 @@
 project:
   type: website
   resources:
-    - CNAME
+    - "CNAME"
+    - "**/*.{png, jpg, jpeg, svg}"
+    - "**/*.{xls, xlsx, csv, rds}"
+    - "**/*.csv.gz"
+    - "**/*.rds.gz"
+    - "**/*.R"
 
 website:
-#  title: "Wintree's"
+  title: "Wintree's"
   navbar: 
     left: 
-      - text: "Wintree's"
-        href: https://www.csmpub.com/index.html
       - text: "Home"
         href: https://www.csmpub.com/index.html
     right:
