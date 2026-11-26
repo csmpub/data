@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://data.csmpub.com/index.html</loc>
-    <lastmod>2026-11-22T09:27:40.842Z</lastmod>
+    <loc>https://data.csmpub.com/data_p/기관_분류/주민등록인구/index.html</loc>
+    <lastmod>2026-11-26T04:54:05.770Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.csmpub.com/data_r/주제_분류/분류_코드/KOSIS/index.html</loc>
+    <lastmod>2026-11-26T04:31:18.932Z</lastmod>
   </url>
   <url>
     <loc>https://data.csmpub.com/downloads.html</loc>
-    <lastmod>2026-11-22T16:56:31.775Z</lastmod>
+    <lastmod>2026-11-26T04:59:07.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.csmpub.com/index.html</loc>
+    <lastmod>2026-11-26T06:09:44.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.csmpub.com/resources.html</loc>
+    <lastmod>2026-11-26T04:58:57.259Z</lastmod>
   </url>
 </urlset>
