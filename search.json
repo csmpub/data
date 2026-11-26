@@ -33,24 +33,10 @@
     "text": "Wintree’s 데이터 서브 프로젝트"
   },
   {
-    "objectID": "index.html#최근-업데이트",
-    "href": "index.html#최근-업데이트",
+    "objectID": "index.html#데이터-다운로드",
+    "href": "index.html#데이터-다운로드",
     "title": "Data Sub-project",
-    "section": "최근 업데이트",
-    "text": "최근 업데이트\n최근 작성된(소스 코드로 렌더링된 날짜) 데이터 파일들을 다운로드할 수 있습니다.\n처리 후 데이터 폴더(data_p)의 파일들 다운로드할 수 있도록 DT2::dt2() 함수를 사용한 datatable"
-  },
-  {
-    "objectID": "index.html#data-resources",
-    "href": "index.html#data-resources",
-    "title": "Data Sub-project",
-    "section": "Data Resources",
-    "text": "Data Resources"
-  },
-  {
-    "objectID": "index.html#data-downloads",
-    "href": "index.html#data-downloads",
-    "title": "Data Sub-project",
-    "section": "Data Downloads",
-    "text": "Data Downloads"
+    "section": "데이터 다운로드",
+    "text": "데이터 다운로드\nDT2::dt2() 함수를 사용한 데이터 리스트 보여주고 다운로드"
   }
 ]
