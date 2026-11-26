@@ -1,13 +1,14 @@
 [
   {
-    "objectID": "data_p/공통/시군구_코드/index.html",
-    "href": "data_p/공통/시군구_코드/index.html",
+    "objectID": "data_p/공통/행정구역/시군구_코드/index.html",
+    "href": "data_p/공통/행정구역/시군구_코드/index.html",
     "title": "시군구 코드및 명칭",
     "section": "",
     "text": "통계포털 기준 시/도, 시/군/구 코드 및 명칭(영문 포함)",
     "crumbs": [
       "Data P",
       "공통",
+      "행정구역",
       "시군구 코드및 명칭"
     ]
   },
@@ -30,13 +31,13 @@
     "href": "index.html",
     "title": "Data Sub-project",
     "section": "",
-    "text": "Wintree’s 데이터 서브 프로젝트"
+    "text": "DT2::dt2() 함수를 사용한 데이터 리스트 보여주고 다운로드"
   },
   {
-    "objectID": "index.html#데이터-다운로드",
-    "href": "index.html#데이터-다운로드",
+    "objectID": "index.html#모든-데이터-다운로드",
+    "href": "index.html#모든-데이터-다운로드",
     "title": "Data Sub-project",
-    "section": "데이터 다운로드",
-    "text": "데이터 다운로드\nDT2::dt2() 함수를 사용한 데이터 리스트 보여주고 다운로드"
+    "section": "",
+    "text": "DT2::dt2() 함수를 사용한 데이터 리스트 보여주고 다운로드"
   }
 ]
