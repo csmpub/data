@@ -11,8 +11,8 @@ website:
         href: https://www.csmpub.com/index.html
       - text: "Home"
         href: https://www.csmpub.com/index.html
-      - text: "How to ..."
-        href: https://comp.csmpub.com/index.html
+#      - text: "How to ..."
+#        href: https://comp.csmpub.com/index.html
     right:
       - text: "Data Resources"
         href: resources.qmd
