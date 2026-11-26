@@ -1,27 +1,28 @@
 [
   {
-    "objectID": "data_p/기관_분류/주민등록인구/index.html",
-    "href": "data_p/기관_분류/주민등록인구/index.html",
-    "title": "시군구별 주민등록인구 현황",
+    "objectID": "data_p/공통/시군구_코드/index.html",
+    "href": "data_p/공통/시군구_코드/index.html",
+    "title": "시군구 코드및 명칭",
     "section": "",
-    "text": "작성된 데이터 입니다.",
+    "text": "통계포털 기준 시/도, 시/군/구 코드 및 명칭(영문 포함)",
     "crumbs": [
       "Data P",
-      "기관 분류",
-      "시군구별 주민등록인구 현황"
+      "공통",
+      "시군구 코드및 명칭"
     ]
   },
   {
-    "objectID": "data_r/주제_분류/분류_코드/KOSIS/index.html",
-    "href": "data_r/주제_분류/분류_코드/KOSIS/index.html",
-    "title": "통계포털 시군구 코드 및 명칭",
+    "objectID": "data_r/통계포털/인구/주민등록인구현황/행정구역별_주민등록세대수/index.html",
+    "href": "data_r/통계포털/인구/주민등록인구현황/행정구역별_주민등록세대수/index.html",
+    "title": "행정구역(시군구)별 주민등록세대수",
     "section": "",
-    "text": "통계 포털에서 사용하는 시군구 코드",
+    "text": "수록기간 월, 년",
     "crumbs": [
       "Data R",
-      "주제 분류",
-      "분류 코드",
-      "통계포털 시군구 코드 및 명칭"
+      "통계포털",
+      "인구",
+      "주민등록인구현황",
+      "행정구역(시군구)별 주민등록세대수"
     ]
   },
   {

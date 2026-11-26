@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -378,7 +378,7 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">기관 분류</span></a>
+ <span class="menu-text">공통</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="토글 섹션">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -386,8 +386,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data_p/기관_분류/주민등록인구/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">시군구별 주민등록인구 현황</span></a>
+  <a href="./data_p/공통/시군구_코드/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">시군구 코드및 명칭</span></a>
   </div>
 </li>
       </ul>
@@ -400,7 +400,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">분류</h5><div class="quarto-listing-category category-unnumbered"></div></div>
+    <h5 class="quarto-listing-category-title">분류</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="JUVDJThCJTlDJUVBJUI1JUIwJUVBJUI1JUFD">시군구</div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -424,8 +424,8 @@ window.Quarto = {
 </header>
 
 
-<section id="가공-후-데이터-wintrees" class="level2">
-<h2 class="anchored" data-anchor-id="가공-후-데이터-wintrees">가공 후 데이터 (Wintree’s)</h2>
+<section id="가공-후-데이터-다운로드" class="level2">
+<h2 class="anchored" data-anchor-id="가공-후-데이터-다운로드">가공 후 데이터 (다운로드)</h2>
 
 
 
@@ -439,16 +439,13 @@ window.Quarto = {
       <option value="" disabled="" selected="" hidden="">정렬</option>
       <option value="index" data-direction="asc">기본</option>
       <option value="listing-date-sort" data-direction="asc">
-        날짜 - 오름차순
+        생성일 - 오름차순
       </option>
       <option value="listing-date-sort" data-direction="desc">
-        날짜 - 내림차순
+        생성일 - 내림차순
       </option>
       <option value="listing-title-sort" data-direction="asc">
-        제목
-      </option>
-      <option value="listing-author" data-direction="asc">
-        저자
+        데이터
       </option>
     </select>
   </div>
@@ -462,30 +459,30 @@ window.Quarto = {
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">날짜</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">데이터</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">제목</a>
+설명
 </th>
 
 <th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">저자</a>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">생성일</a>
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1680274800000" data-listing-file-modified-sort="1795668845770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="시군구별 주민등록인구 현황" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="JUVDJThCJTlDJUVBJUI1JUIwJUVBJUI1JUFD" data-listing-date-sort="1795446000000" data-listing-file-modified-sort="1795681648751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8" data-listing-title-sort="시군구 코드및 명칭" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">2023. 4. 1.</span>
+<a href="./data_p/공통/시군구_코드/index.html" class="title listing-title">시군구 코드및 명칭</a>
 </td>
 <td>
-<a href="./data_p/기관_분류/주민등록인구/index.html" class="title listing-title">시군구별 주민등록인구 현황</a>
+<span class="listing-description">통계포털 기준 시/도, 시/군/구 코드 및 명칭(영문 포함)</span>
 </td>
 <td>
-<span class="listing-author">&nbsp;</span>
+<span class="listing-date">26.11.24</span>
 </td>
 
 </tr>

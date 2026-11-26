@@ -2,13 +2,13 @@
   {
     "listing": "/downloads.html",
     "items": [
-      "/data_p/기관_분류/주민등록인구/index.html"
+      "/data_p/공통/시군구_코드/index.html"
     ]
   },
   {
     "listing": "/resources.html",
     "items": [
-      "/data_r/주제_분류/분류_코드/KOSIS/index.html"
+      "/data_r/통계포털/인구/주민등록인구현황/행정구역별_주민등록세대수/index.html"
     ]
   }
 ]

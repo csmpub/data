@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://data.csmpub.com/data_p/기관_분류/주민등록인구/index.html</loc>
-    <lastmod>2026-11-26T04:54:05.770Z</lastmod>
+    <loc>https://data.csmpub.com/data_p/공통/시군구_코드/index.html</loc>
+    <lastmod>2026-11-26T08:27:28.751Z</lastmod>
   </url>
   <url>
-    <loc>https://data.csmpub.com/data_r/주제_분류/분류_코드/KOSIS/index.html</loc>
-    <lastmod>2026-11-26T04:31:18.932Z</lastmod>
+    <loc>https://data.csmpub.com/data_r/통계포털/인구/주민등록인구현황/행정구역별_주민등록세대수/index.html</loc>
+    <lastmod>2026-11-26T08:14:19.736Z</lastmod>
   </url>
   <url>
     <loc>https://data.csmpub.com/downloads.html</loc>
-    <lastmod>2026-11-26T04:59:07.070Z</lastmod>
+    <lastmod>2026-11-26T08:30:43.165Z</lastmod>
   </url>
   <url>
     <loc>https://data.csmpub.com/index.html</loc>
-    <lastmod>2026-11-26T06:09:44.725Z</lastmod>
+    <lastmod>2026-11-26T08:35:25.734Z</lastmod>
   </url>
   <url>
     <loc>https://data.csmpub.com/resources.html</loc>
-    <lastmod>2026-11-26T04:58:57.259Z</lastmod>
+    <lastmod>2026-11-26T08:35:22.171Z</lastmod>
   </url>
 </urlset>
