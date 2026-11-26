@@ -11,8 +11,7 @@ website:
         href: https://www.csmpub.com/index.html
       - text: "Home"
         href: https://www.csmpub.com/index.html
-#      - text: "How to ..."
-#        href: https://comp.csmpub.com/index.html
+      - href: index.qmd
     right:
       - text: "Data Resources"
         href: resources.qmd
@@ -20,19 +19,25 @@ website:
         href: downloads.qmd
   sidebar:
     - id: home
-#      title: "Data"
       style: floating
-      contents: 
-        - title: "Data Resources"
+      collapse-level: 3
+      contents:
+        - text: "Data Sub-project"
+        - text: "---"
+        - text: "Data Resources"
           href: resources.qmd
-        - title: "Data Resources"
+        - text: "Data Resources"
           href: downloads.qmd
     - id: data_r
-      title: "Data Resources"
-      contents: data_r
+      contents:
+        - text: "Data Resources"
+        - text: "---"
+        - auto: data_r
     - id: data_p
-      title: "Data Downloads"
-      contents: data_p
+      contents:
+        - text: "Data Downloads"
+        - text: "---"
+        - auto: data_p
 
   draft-mode: visible
 

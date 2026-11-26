@@ -6,8 +6,6 @@ format:
         css: listing-toc.css
 ---
 
-[Wintree's](https://www.csmpub.com) 데이터 서브 프로젝트
-
-## 데이터 다운로드
+## 모든 데이터 다운로드
 
 DT2::dt2() 함수를 사용한 데이터 리스트 보여주고 다운로드
