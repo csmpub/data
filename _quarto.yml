@@ -25,7 +25,7 @@ website:
         - text: "---"
         - text: "Data Resources"
           href: resources.qmd
-        - text: "Data Resources"
+        - text: "Data Downloads"
           href: downloads.qmd
     - id: data_r
       contents:
