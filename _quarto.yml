@@ -19,9 +19,14 @@ website:
       - text: "Data Downloads"
         href: downloads.qmd
   sidebar:
-    - id: Home
-      title: "Data"
+    - id: home
+#      title: "Data"
       style: floating
+      contents: 
+        - title: "Data Resources"
+          href: resources.qmd
+        - title: "Data Resources"
+          href: downloads.qmd
     - id: data_r
       title: "Data Resources"
       contents: data_r
