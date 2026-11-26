@@ -1,1 +1,3 @@
-path,description
+"path","description"
+"data_p/공통/행정구역/시군구_코드/KOSIS_CCD.rds.gz","데이터 포털 기준 시군구코드"
+"data_p/공통/행정구역/시군구_코드/행정동및법정동.rds.gz","행정안전부 기준 시군구코드"

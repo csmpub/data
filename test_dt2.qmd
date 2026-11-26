@@ -1,15 +1,13 @@
 ---
-title: Test
+title: "Test DT2::dt2()"
 # flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - superhero
+sidebar: home
 format: 
-  html:
-    respect-user-color-scheme: true
-    theme: 
-      light: yeti
-      dark: superhero
+    html: 
+        css: listing-toc.css
 ---
 
-## DT2
+## File list test dt2()
 
 ```{r}
 #| echo: false

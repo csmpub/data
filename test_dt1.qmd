@@ -1,8 +1,12 @@
 ---
-title: "Down"
+title: "Test DT::datatable()"
+sidebar: home
+format: 
+    html: 
+        css: listing-toc.css
 ---
 
-## File List
+## File List test: datatable()
 
 ```{r}
 #| eval: true
