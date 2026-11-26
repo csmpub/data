@@ -4,8 +4,17 @@ listing:
     type: table
     contents: data_p
     categories: unnumbered
+    fields: 
+      - title
+      - description
+      - date
+language: 
+  listing-page-field-title: "데이터"
+  listing-page-field-description: "설명"
+  listing-page-field-date: "생성일"
 sidebar: data_p
 toc: false
+date-format: "YY.MM.DD"
 ---
 
-## 가공 후 데이터 (Wintree's)
+## 가공 후 데이터 (다운로드)

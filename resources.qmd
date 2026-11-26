@@ -1,11 +1,23 @@
 ---
 title: "Data Resources"
+
 listing: 
     type: table
     contents: data_r
     categories: unnumbered
+    fields: 
+      - title
+      - description
+      - date
+
 sidebar: data_r
 toc: false
+
+date-format: "YY.MM.DD"
+language: 
+    listing-page-field-title: "데이터"
+    listing-page-field-description: "설명"
+    listing-page-field-date: "자료기준일"
 ---
 
 ## 가공 전 데이터 (공공 데이터)

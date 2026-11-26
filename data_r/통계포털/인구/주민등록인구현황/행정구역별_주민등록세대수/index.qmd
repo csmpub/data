@@ -1,0 +1,13 @@
+---
+title: "행정구역(시군구)별 주민등록세대수"
+author: "통계포털(KOSIS)"
+date: 2026-10-26
+categories:
+    - 세대수
+    - 시군구
+language: 
+    title-block-author-single: "제공기관"
+    title-block-published: "자료기준일"
+---
+
+수록기간 월, 년

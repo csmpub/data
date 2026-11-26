@@ -1,0 +1,11 @@
+---
+title: "시군구 코드및 명칭"
+author: "Wintree"
+date: 2026-11-24
+categories:
+    - 시군구
+language: 
+    title-block-published: "생성일"
+---
+
+통계포털 기준 시/도, 시/군/구 코드 및 명칭(영문 포함)
