@@ -1,0 +1,22 @@
+---
+title: Test
+# flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - superhero
+format: 
+  html:
+    respect-user-color-scheme: true
+    theme: 
+      light: yeti
+      dark: superhero
+---
+
+## DT2
+
+```{r}
+#| echo: false
+library(DT2)
+source(here::here("Rscript", "DT2", "options.R"))
+
+opts <- opts_common
+
+dt2(iris, options = opts)
+```
